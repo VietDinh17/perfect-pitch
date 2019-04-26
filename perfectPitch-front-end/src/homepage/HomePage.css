@@ -1,0 +1,82 @@
+.big-box{
+    vertical-align: top;
+}
+.top-box{
+    background-color: #e6617c;
+    height: 300px;
+    vertical-align: top
+}
+
+.main-logo{
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+}
+
+.main-title{
+    margin-left: -100px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold
+}
+
+.order-file{
+    vertical-align: top;
+    margin: 0% 50%;
+}
+
+.divider{
+    margin: 10% 0;
+}
+
+.divider-1{
+    margin: 1.5% 5%;
+}
+.progress-box{
+    margin: 1% 35%;
+    vertical-align: top;
+    width: 500px;
+}
+
+.drop-logo{
+    margin-left: 65px;
+    height: 10vmin;
+}
+
+.icon-main-page{
+    width: 100px;
+    height: 100px;
+}
+
+.middle-box{
+    vertical-align: top;
+    margin:0 43.5% ;
+    margin-top: 1%
+}
+
+.upload-button{
+    margin:  1% 46%;
+    width: 400px;
+}
+
+.files-name{
+    margin: 1% 38%;
+    width: 400px;
+}
+
+.button-sl-up{
+    margin: 20px
+}
+
+.right-icon{
+    margin-left: 5%;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.label-file-upload {
+    
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}

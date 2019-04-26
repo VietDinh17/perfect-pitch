@@ -1,0 +1,6 @@
+#!/bin/sh
+#run with sh -e commands.txt
+python music_transcription.py
+find ~/gminor/gminor-back-end -name "*.mid" | while read f ; do
+/Applications/MuseScore\ 3.app/Contents/MacOS/mscore -o "1.png" $f; done
+mv ~/gminor/gminor-back-end/1-1.png ~/gminor/gminor-front-end/src/tempory-images/1.png
